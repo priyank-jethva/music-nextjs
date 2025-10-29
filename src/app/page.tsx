@@ -1,11 +1,14 @@
 import HeroSection from "@/components/HeroSection";
 import FeaturedCourses from "@/components/FeaturedCourses";
 import { BackgroundRippleEffect } from "@/components/ui/background-ripple-effect";
+import UpcomingWebinars from "@/components/UpcomingWebinars";
 
 import TestimonialCards from "@/components/TestimonialCards";
 
 import Image from "next/image";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import Instructors from "@/components/Instructors";
+import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
@@ -13,9 +16,10 @@ export default function Home() {
       <HeroSection />
       <FeaturedCourses />
       <WhyChooseUs />
-      
-        <TestimonialCards />
-      
+      <TestimonialCards />
+      <UpcomingWebinars />
+      <Instructors />
+      <Footer />
     </main>
   );
 }

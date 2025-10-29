@@ -49,7 +49,7 @@ function MusicSchoolTestimonials() {
                             direction="right"
                             speed="slow"
                         />
-                    </div>
+                    </div> 
                 </div>
             </div>
         </>
